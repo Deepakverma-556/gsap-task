@@ -5,22 +5,23 @@ let tl = gsap.timeline({
         start: 'top top',
         end: '+=400%',
         pin: true,
-        scrub: 5,
-        markers: true,
+        scrub: 2,
+        markers: false,
     }
 });
 
+tl
+    .from('.title',
+        {
+            y: '1000%',
+            opacity: 0,
+        },
+    )
 
 let max = gsap.matchMedia();
 
 max.add("(min-width:1280px)", () => {
     tl
-        .from('.title',
-            {
-                y: '1000%',
-                opacity: 0,
-            },
-        )
         .from('.right-arrow-icon',
             {
                 x: '-100%',
@@ -91,6 +92,7 @@ max.add("(min-width:1280px)", () => {
 })
 
 max.add("(max-width:1279.99px)", () => {
+
     tl.fromTo('.card-one',
         {
             x: '-100%',
