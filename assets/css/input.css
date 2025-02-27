@@ -1,0 +1,13 @@
+* {
+    font-family: "Mundial", sans-serif;
+}
+
+html,
+body {
+    background-color: #B5EFCB;
+}
+
+@font-face {
+    font-family: "Mundial";
+    src: url("/assets/fonts/MundialRegular.otf") format(openType);
+}
