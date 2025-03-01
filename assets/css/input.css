@@ -1,13 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     font-family: "Mundial", sans-serif;
 }
 
-html,
-body {
-    background-color: #B5EFCB;
+.raleway {
+    font-family: "Raleway", sans-serif;
+}
+
+.machina {
+    font-family: "Neue Machina", sans-serif;
+}
+
+.core-bg {
+    backdrop-filter: blur(25px);
 }
 
 @font-face {
     font-family: "Mundial";
     src: url("/assets/fonts/MundialRegular.otf") format(openType);
+}
+
+@font-face {
+    font-family: "Neue Machina";
+    src: url("/assets/fonts/NeueMachina-Regular.otf") format(openType);
 }
