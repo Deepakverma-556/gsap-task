@@ -3,7 +3,7 @@ let tl = gsap.timeline({
     scrollTrigger: {
         trigger: ".parent",
         start: "top top",
-        end: "100%",
+        end: "400%",
         scrub: 2,
         pin: true,
     },
