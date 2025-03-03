@@ -22,7 +22,6 @@ tl
     .to(".fill-line",
         {
             width: "32%",
-            duratin:"2"
         }
     )
     .to(".image-two",
