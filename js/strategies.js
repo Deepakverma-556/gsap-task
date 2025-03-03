@@ -15,7 +15,7 @@ let timeLine = gsap.timeline({
         start: 'top top',
         end: '+=5%',
         scrub: 1,
-        markers: true,
+        markers: false,
     }
 })
 timeLine.from(".title", {
@@ -105,6 +105,6 @@ timeLine.from(".title", {
     )
     tl.to([".card-four",".img-two"],
         {
-            opacity: 1
+            opacity: 10
         }
     )
